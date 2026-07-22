@@ -7,13 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: "#161F2B",       // deep blue-slate background, not pure black
-        surface: "#1E2836",   // panel background
-        line: "#2C384A",      // hairline borders
-        paper: "#EDEAE2",     // warm off-white text
-        muted: "#93A2B7",     // secondary text
-        signal: "#E8A33D",    // amber accent — commit/build signal
-        ok: "#5FB98C",        // muted green for "merged/shipped" states
+        ink: "#FAF9F6",       // warm off-white page background
+        surface: "#FFFFFF",   // card background
+        line: "#E8E5DD",      // hairline borders
+        paper: "#1C1F26",     // near-black primary text
+        muted: "#6B7280",     // secondary text
+        signal: "#B5762E",    // refined gold accent
+        ok: "#3F8F5F",        // muted green for "live" status
       },
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
