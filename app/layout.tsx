@@ -21,9 +21,17 @@ const monoFont = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yashay Singh — Software Developer",
+  title: "Yashay Singh — Full-Stack Developer",
   description:
-    "Full-stack web, mobile, and AI developer working across C#, Flutter, React, Python & TypeScript.",
+    "IT student and full-stack developer building web, mobile, and AI-powered products across C#, Flutter, React, Python & TypeScript.",
+  openGraph: {
+    title: "Yashay Singh — Full-Stack Developer",
+    description:
+      "IT student and full-stack developer building web, mobile, and AI-powered products.",
+    url: "https://portfolio-site-949.netlify.app",
+    siteName: "Yashay Singh",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
